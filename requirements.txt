@@ -1,0 +1,40 @@
+# TorchUMM dependencies
+# Excludes: torch, torchvision, flash-attn (install separately, version depends on your CUDA/PyTorch)
+# Excludes: deepspeed, mmdet, trl, openai, gradio (heavy/optional, install only when needed)
+
+# Core framework
+numpy
+Pillow
+PyYAML
+tqdm
+requests
+regex
+safetensors
+huggingface-hub
+accelerate
+
+# HuggingFace ecosystem
+transformers
+datasets
+peft
+sentencepiece
+tokenizers
+
+# Model-specific (Janus-Pro, MMaDA, etc.)
+timm
+einops
+attrdict
+diffusers
+
+# Evaluation
+scikit-learn
+pandas
+opencv-python
+python-Levenshtein
+
+# Generation benchmark scoring
+open-clip-torch
+qwen-vl-utils
+
+# Data
+pyarrow
